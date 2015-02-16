@@ -1,5 +1,16 @@
-BriefingLab News CMS
-===============
+=== BriefingLab News CMS ===
+Contributors: BriefingLab, Luca Maroni
+Donate link: http://briefinglab.com
+Tags: Wordpress, News slider, Manage News Content, Simply News CMS, ews, Events, Fair
+Requires at least: 3.9.1
+Tested up to: 4.1
+Stable tag: 1.0.0
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+Another plugin from the series Briefinlab CMS to manage news, events and fair information in your WordPress site.
+
+== Description ==
 This plugin give you a CMS section to manage the news, events and fair content with the usual and very well known WordPress paradigm. Then it will provide you the possibility to implement
 your own HTML and JS in a very structured way. It tries to make order between content and views.
 
