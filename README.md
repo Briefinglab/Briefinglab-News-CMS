@@ -1,5 +1,6 @@
 BriefingLab News CMS
 ===============
+
 This plugin give you a CMS section to manage the news, events and fair content with the usual and very well known WordPress paradigm. Then it will provide you the possibility to implement
 your own HTML and JS in a very structured way. It tries to make order between content and views.
 
