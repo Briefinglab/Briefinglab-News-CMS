@@ -7,8 +7,8 @@
  * Each issue contains article grouped by category/rubric.
  * *
  * @wordpress-plugin
- * Plugin Name: BriefingLab News CMS
- * Contributors: BriefingLab, Luca Maroni
+ * Plugin Name: Briefinglab News CMS
+ * Contributors: Briefinglab, Luca Maroni
  * Donate link: http://briefinglab.com
  * Plugin URI: http://briefinglab.com
  * Description: Another plugin from the series Briefinlab CMS to manage news, events and fair information in your WordPress site.

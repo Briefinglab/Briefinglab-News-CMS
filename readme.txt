@@ -1,5 +1,5 @@
-=== BriefingLab News CMS ===
-Contributors: BriefingLab, Luca Maroni
+=== Briefinglab News CMS ===
+Contributors: Briefinglab, Luca Maroni
 Donate link: http://briefinglab.com
 Tags: Wordpress, News slider, Manage News Content, Simply News CMS, ews, Events, Fair
 Requires at least: 3.9.1
