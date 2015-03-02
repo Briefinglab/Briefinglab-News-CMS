@@ -104,7 +104,7 @@ class Bl_News_Cms_Manager_Public {
 
     }
 
-    private function include_item_bl_news_template( $bl_news_item, $bl_slide_index, $atts ){
+    private function include_item_bl_news_template( $bl_news_item, $bl_news_index, $atts ){
 
         include $this->locate_template_bl_news( 'item-news.php', $atts );
 
@@ -124,7 +124,11 @@ class Bl_News_Cms_Manager_Public {
 
         }
 
-        $check_templates[] =  $custom_template_folder . '/' . substr( $template, 0, -4 ) . '-' . $post->post_name . '.php';
+        if($post) {
+
+            $check_templates[] = $custom_template_folder . '/' . substr($template, 0, -4) . '-' . $post->post_name . '.php';
+
+        }
 
         if( isset( $atts['categories'] ) ) {}{
 

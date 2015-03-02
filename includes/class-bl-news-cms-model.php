@@ -17,7 +17,7 @@ class Bl_News_Cms_Model {
 
         $args = array(
             'post_type' => 'bl-news',
-            'limit' => $atts['limit']
+            'posts_per_page' => $atts['limit']
         );
 
         if( ! empty ( $atts['categories'] ) ){
@@ -30,7 +30,6 @@ class Bl_News_Cms_Model {
                 )
             );
         }
-
         return get_posts( $args );
 
     }
