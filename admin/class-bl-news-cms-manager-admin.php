@@ -104,7 +104,7 @@ class Bl_News_Cms_Manager_Admin {
 
     public function add_delete_cache_menu_link(){
 
-        add_submenu_page( 'edit.php?post_type=bl-news', __( 'Briefinglab News CMS Cache', 'bl-news-cms' ), __( 'Delete Cache', 'bl-news-cms' ), 'manage_options', 'delete-cache', array( $this, 'delete_cache' ) );
+        add_submenu_page( 'edit.php?post_type=bl-news', __( 'Briefinglab News CMS Cache', 'bl-news-cms' ), __( 'Delete Cache', 'bl-news-cms' ), 'manage_options', 'delete-cache-news', array( $this, 'delete_cache' ) );
 
     }
 
@@ -116,7 +116,7 @@ class Bl_News_Cms_Manager_Admin {
 
         <div class="wrap">
 
-            <h2><?php _e( 'News CMS Cache', 'bl-news-cms' ); ?>?></h2>
+            <h2><?php _e( 'News CMS Cache', 'bl-news-cms' ); ?></h2>
 
             <?php if( $delete_status ):?>
 
