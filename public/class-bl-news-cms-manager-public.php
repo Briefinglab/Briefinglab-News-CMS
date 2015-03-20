@@ -41,12 +41,10 @@ class Bl_News_Cms_Manager_Public {
 
     private function render_bl_news( $bl_news, $atts ){
 
-        global $bl_news_printed;
+        global $bl_news_printed, $locale;
 
-        //$id_cache = $this->data_model->create_id_cache_html( serialize($atts) );
-        $id_cache = $this->cache_manager->create_id_cache_html( 'bl-news-' . serialize($atts) );
+        $id_cache = $this->cache_manager->create_id_cache_html( 'bl-news-' . $locale . serialize($atts) );
 
-        //$html_carousel = $this->data_model->has_cached_html( $id_cache );
         $html_carousel = $this->cache_manager->has_cached_html( $id_cache );
 
         if( false === $html_carousel ){

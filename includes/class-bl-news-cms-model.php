@@ -17,7 +17,8 @@ class Bl_News_Cms_Model {
 
         $args = array(
             'post_type' => 'bl-news',
-            'posts_per_page' => $atts['limit']
+            'posts_per_page' => $atts['limit'],
+            'suppress_filters' => 0
         );
 
         if( ! empty ( $atts['categories'] ) ){
